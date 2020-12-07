@@ -60,6 +60,8 @@ function transferDetails() {
     console.log(more)
 
     document.getElementById("colorbox").classList.add(more.id);
+    document.getElementById("fact").innerHTML = more.funfact;
+
 }
 
 

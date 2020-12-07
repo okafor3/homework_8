@@ -22,25 +22,25 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 	<script>
-		var fact1 = {
-		  id: "fact1",
-          funfact: "Babies are born color blind! As they grow, their color vision improves and is typically fully developed by the age of 6 months.",
-		};
+		// var fact1 = {
+		//   id: "fact1",
+        //   funfact: "Babies are born color blind! As they grow, their color vision improves and is typically fully developed by the age of 6 months.",
+		// };
 	
-		var fact2 = {
-		  id: "fact2",
-          funfact: "It’s possible to be color blind in one eye and have normal color vision in the other! This is called unilateral dichromacy and it’s very rare.",
+		// var fact2 = {
+		//   id: "fact2",
+        //   funfact: "It’s possible to be color blind in one eye and have normal color vision in the other! This is called unilateral dichromacy and it’s very rare.",
 
-		};
+		// };
 
-		var fact3 = {
-		  id: "fact3",
-          funfact: "In Romania, color blind people are not allowed to obtain a driver’s license. In England, color blindness may prevent you from becoming a doctor.",
-		};
+		// var fact3 = {
+		//   id: "fact3",
+        //   funfact: "In Romania, color blind people are not allowed to obtain a driver’s license. In England, color blindness may prevent you from becoming a doctor.",
+		// };
 
-		localStorage.setItem(fact1.id, JSON.stringify(fact1));
-		localStorage.setItem(fact2.id, JSON.stringify(fact2));
-		localStorage.setItem(fact3.id, JSON.stringify(fact3));
+		// localStorage.setItem(fact1.id, JSON.stringify(fact1));
+		// localStorage.setItem(fact2.id, JSON.stringify(fact2));
+		// localStorage.setItem(fact3.id, JSON.stringify(fact3));
 	
 	</script>
 
@@ -76,7 +76,7 @@
 					<img src="greeneye.png" class="img-fluid" alt="Responsive image">
 				</div>
 
-				<div class="col-sm-8">
+				<div class="col-sm">
 					<div class ="row">
 						<h2 class="paragraph2" id ="sum"></h2>
 							
@@ -90,7 +90,7 @@
 						
 					</div>
 					<div class="d-flex flex-row justify-content-center">
-						<button type="button" id="fact" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal" onclick="funFact()">Fun Fact</button>
+						<button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal" onclick="funFact()">Fun Fact</button>
 						
 					</div>
 				</div>
@@ -142,7 +142,7 @@
 					<button type="button" class="close" data-dismiss="modal">&times;</button>
 				  </div>
 				  <div class="modal-body">
-					<p id="head"></p>
+					<p id="fact"></p>
 					<!-- <p>Babies are born color blind! As they grow, their color vision improves and is typically fully developed by the age of 6 months.</p> -->
 				  </div>
 				  <div class="modal-footer">
