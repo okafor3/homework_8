@@ -8,7 +8,9 @@
 
 body{
     background-color:#F4F4F4;
+    height: 100%;
 }
+
 
 
 .centersquare{
@@ -129,7 +131,7 @@ header {
 .paragraph2 {
     margin-top: 1.2px; 
     margin-bottom: 1px; 
-    text-align:center;
+    /* text-align:center; */
     font-size: 16px;
     font-weight: lighter;
     color: #424242;
