@@ -13,6 +13,8 @@ function toggleButton(togglebutton) {
     let b1 = document.getElementById("button1")
     let b2 = document.getElementById("button2")
     let c = document.getElementById("colorbox")
+    let d = document.getElementById("colorbox2")
+
 
     if(togglestate == "normal"){
         togglestate = "colorblind";
@@ -38,13 +40,16 @@ function toggleButton(togglebutton) {
     if(togglebutton == "colorblind"){
         c.classList.remove("normal");
         c.classList.add("colorblind");
+        d.classList.remove("normal");
+        d.classList.add("colorblind2");
     }
     
     if(togglebutton == "normal"){
         c.classList.remove("colorblind");
         c.classList.add("normal");
+        d.classList.remove("colorblind2");
+        d.classList.add("normal");
     }
-
 
     console.log(togglebutton)
 }
@@ -60,6 +65,8 @@ function transferDetails() {
     console.log(more)
 
     document.getElementById("colorbox").classList.add(more.id);
+    document.getElementById("colorbox2").classList.add(more.id);
+
     document.getElementById("fact").innerHTML = more.funfact;
 
 }

@@ -217,6 +217,26 @@ p.b {
     width: 860px;
 }
 
+#colorbox2 {
+    margin-top: 40px; 
+    margin-left: 20px;
+    width: 100%; 
+    text-align:center;
+    font-size: 22px;
+    font-weight: lighter;
+    /* background-color: #E56E5D; */
+    color: #424242;
+    padding-top: 1.7em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    /*padding top right bottom left*/
+    text-decoration: none; 
+    line-height: 1.6;
+    height: 100px;
+    width: 860px;
+}
+
 
 
 
@@ -256,43 +276,85 @@ p.b {
 /* color blocks */
 
 
+/* redgreen normal */
+
 .redgreen.normal {
     background-color: #E56E5D;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    /* -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear; */
+    transition: background-color 500ms linear;
 }
+
+.redgreen.normal2 {
+    background-color: #8DFA4D;
+    transition: background-color 500ms linear;
+}
+
+/* complete normal */
 
 .complete.normal {
     background-color: #9497BC;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    transition: background-color 500ms linear;
 }
+
+.complete.normal2 {
+    background-color:#D5AD3C;
+    transition: background-color 500ms linear;
+}
+
+/* blueyellow normal */
 
 .blueyellow.normal {
     background-color:#EE7940;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
-}
-.redgreen.colorblind {
-    background-color:#878165;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    transition: background-color 500ms linear;
 }
 
-.complete.colorblind {
-    background-color:#acacac;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+.blueyellow.normal2 {
+    background-color: #0038F1;
+    transition: background-color 500ms linear;
 }
+
+/* redgreen colorblind */
+
+.redgreen.colorblind {
+    background-color:#878165;
+    transition: background-color 500ms linear;
+}
+
+.redgreen.colorblind2 {
+    background-color: #F9D7A2;
+    transition: background-color 500ms linear;
+}
+/* complete colorblind */
+
+.complete.colorblind {
+    background-color:#ACACAC;
+    transition: background-color 500ms linear;
+}
+
+.complete.colorblind2 {
+    background-color: #C2C2C2;
+    transition: background-color 500ms linear;
+}
+
+/* blueyellow colorblind */
 
 .blueyellow.colorblind {
     background-color: #EE7494;
-    -webkit-transition: background-color 1000ms linear;
-    -ms-transition: background-color 1000ms linear;
-    transition: background-color 1000ms linear;
+    transition: background-color 500ms linear;
+}
+
+.blueyellow.colorblind2 {
+    background-color: #255B5C;
+    transition: background-color 500ms linear;
+}
+
+#colorbox{
+    color: white;
+    font-size: 20px;
+}
+
+#colorbox2{
+    color: white;
+    font-size: 20px;
 }
